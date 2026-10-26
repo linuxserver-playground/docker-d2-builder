@@ -1,6 +1,7 @@
 # The manifest for docker-d2-builder. Schema: https://github.com/linuxserver-playground/builder/blob/main/schemas/image.schema.json
 schema: 1
 name: d2-builder
+kind: tool
 
 summary: d2-builder container image.
 
