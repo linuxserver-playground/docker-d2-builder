@@ -9,6 +9,9 @@ upstream:
   version:
     type: github_release
     repo: d2lang/d2
+    require_assets:
+      - asset: '^d2\-.*\-linux\-amd64\.tar\.gz$'
+      - asset: '^d2\-.*\-linux\-arm64\.tar\.gz$'
   notes:
     type: github_release
     repo: d2lang/d2
